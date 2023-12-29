@@ -1,11 +1,12 @@
 html {
     font-family: helvetica;
-    background-color: #ddd;
+    background-color: #06005c;
+    color: #06005c;
 }
 
 .container {
     max-width: 1100px;
-    background-color: #fff;
+    background-color: #f0c504;
     position: relative;
     margin: 50px auto;
     padding: 20px 50px;
@@ -36,14 +37,15 @@ html {
 .biography-container {
     padding: 25px 0;
     margin: 25px 0;
-    border-top: 1px dashed #ddd;
-    border-bottom: 1px dashed #ddd;
+    border-top: 1px dashed #06005c;
+    border-bottom: 1px dashed #06005c;
 }
 
 /* quotes */
 .quotes-conteiner {
-    background-color: #ddd;
+    background-color: #06005c;
     padding: 30px;
+    color: #f0c504;
 }
 
 .quotes-conteiner blockquote{
@@ -59,12 +61,18 @@ html {
 .curiosities-container {
     padding: 25px 0;
     margin: 25px 0;
-    border-top: 1px dashed #ddd;
-    border-bottom: 1px dashed #ddd;
+    border-top: 1px dashed #f0c504;
+    border-bottom: 1px dashed #f0c504;
 }
 
 .curiosities-container li {
     height: 30px;
+}
+
+/* imagem bold */
+.img-bold {
+    font-weight: bold;
+    text-align: center;
 }
 
 /* imagem bold */
